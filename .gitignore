@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+
+
+# Pycache and logs
+__pycache__/
+*.log
+
+
+# VS Code settings
+.vscode/
