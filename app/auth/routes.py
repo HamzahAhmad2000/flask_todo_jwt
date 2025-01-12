@@ -86,7 +86,7 @@ def login():
         return jsonify({"message": "Invalid username or password"}), 401
 
     # Create a JWT access token
-    access_token = create_access_token(identity=user.id)
+    access_token = create_access_token(identity=(user.id))
     return jsonify({"access_token": access_token}), 200
 
 
